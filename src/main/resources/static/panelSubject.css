@@ -1,0 +1,105 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 50px auto;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 0.1em 0.1em white;
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 10px;
+    /*width: 90%;*/
+    box-shadow: 0 0 0.2em 0.2em dimgray;
+    background: cadetblue;
+    font-size: 1em;
+}
+th{
+    font-size: 1.3em;
+    text-align: left;
+    padding: 1em;
+}
+td{
+    padding: .5em;
+}
+tr{
+    box-shadow:  0 0.01em 0 0 dimgray;
+    border-radius: 10px;
+}
+tr td a{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0.05em 0.05em 0 dimgray;
+    border-radius: 5px;
+    padding: .6em 1.5em;
+    transition: 300ms;
+}
+tr td a:hover{
+    box-shadow: 0 0em 0.2em 0 white;
+
+}
+header{
+    padding: 1em;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:first-child{
+    font-size: 2.5em;
+    margin-left: 20px;
+}
+.navbar #logout{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    box-shadow: 0 0.2em 0.1em dimgray;
+    padding: 0.5em 1em;
+    background: cadetblue;
+    border-radius: 5px;
+    transition: 300ms;
+}
+.navbar #logout:hover{
+    box-shadow: 0 0em 0.1em 0.1em white;
+}
+#logout{
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    font-size: 15px;
+}
+#add{
+    text-decoration: none;
+    color: #f2f2f2;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    box-shadow: 0 0 0.2em 0.1em dimgray;
+    background: cadetblue;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: 300ms;
+}
+#add:hover{
+    box-shadow: 0 0 0.3em 0.1em cadetblue;
+}
+.navbar a i:hover{
+    text-shadow: 0.2em 0.1em .2em dimgray ;
+}
+.pack{
+    margin-top: 30px;
+}
+.replay1{
+    background-color: #5cb85c;
+}
+.replay2{
+    background-color: #d9534f;
+}
